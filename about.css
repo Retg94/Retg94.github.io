@@ -1,0 +1,29 @@
+.about-head {
+    text-align: center;
+}
+@media screen and (min-width: 980px){ /* Desktop */
+    .about-page {
+        display: grid;
+        grid-template-columns: 33% auto;
+        grid-gap: 10px;
+    }
+    .about-head {
+        grid-row-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (max-width: 979px){ /* Tablet */
+
+    .about-page {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px){ /* Mobile */
+
+    .about-page {
+        text-align: center;
+    }
+
+}

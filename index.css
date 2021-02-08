@@ -1,0 +1,21 @@
+.latest-posts-container {
+    display: flex;
+    justify-content: center;
+}
+.latest-posts {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 980px){ /* Desktop */
+
+}
+
+@media screen and (max-width: 979px){ /* Tablet */
+
+}
+
+@media screen and (max-width: 500px){ /* Mobile */
+
+}
