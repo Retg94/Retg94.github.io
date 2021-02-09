@@ -2,20 +2,77 @@
     display: flex;
     justify-content: center;
 }
+
 .latest-posts {
     padding: 10px;
     border: 3px solid black;
     border-radius: 15px;
 }
 
-@media screen and (min-width: 980px){ /* Desktop */
+article {
+    border: 3px dotted whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+@media screen and (min-width: 980px){ /* Desktop */
+    article {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: center;
+    }
+    .bloggpost-image {
+        display: none;
+
+    }
+    .blogg-text {
+        padding-right: 10px;
+        width: 100ch;
+        height: 100px;
+        overflow: hidden;
+    }
 }
 
 @media screen and (max-width: 979px){ /* Tablet */
+    article {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: center;
+    }
+    .bloggpost-image {
+        display: none;
 
+    }
+    .blogg-text {
+        padding-right: 10px;
+        width: 100ch;
+        height: 100px;
+        overflow: hidden;
+    }
 }
 
 @media screen and (max-width: 500px){ /* Mobile */
+    article {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: center;
+    }
+    .bloggpost-image {
+        display: none;
 
+    }
+    .blogg-text {
+        padding-right: 10px;
+        width: 100ch;
+        height: 150px;
+        overflow: hidden;
+    }
 }

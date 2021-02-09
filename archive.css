@@ -1,14 +1,38 @@
 .archive-head {
     text-align: center;
 }
-@media screen and (min-width: 980px){ /* Desktop */
 
+article {
+    border: 3px dotted whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+@media screen and (min-width: 980px){ /* Desktop */
+    article {
+        display: flex;
+        flex-direction: row;
+    }
+    .bloggpost-image {
+        max-width: 500px;
+        height: auto;
+        text-align: center;
+
+    }
+    .blogg-text {
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width: 979px){ /* Tablet */
-
+    .bloggpost-image {
+        width: 90%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 500px){ /* Mobile */
-
+    .bloggpost-image {
+        width: 90%;
+        height: auto;
+    }
 }

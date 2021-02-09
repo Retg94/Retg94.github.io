@@ -20,12 +20,6 @@ footer {
     align-items: center;
 }
 
-article {
-    border: 3px dotted whitesmoke;
-    padding: 10px;
-    margin: 10px;
-}
-
 .img-container {
     text-align: center;
 }
@@ -68,11 +62,6 @@ a:active {
     .desktop-middle-header {
         justify-self: center;
     }
-    .bloggpost-image {
-        max-width: 500px;
-        height: auto;
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 979px){ /* Tablet */
@@ -86,10 +75,6 @@ a:active {
         flex-direction: row;
         justify-content: space-between;
     }
-    .bloggpost-image {
-        width: 90%;
-        height: auto;
-    }
 }
 
 @media screen and (max-width: 500px){ /* Mobile */
@@ -102,10 +87,5 @@ a:active {
 
     .header-image {
         display: none;
-    }
-    
-    .bloggpost-image {
-        width: 90%;
-        height: auto;
     }
 }
