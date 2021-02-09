@@ -2,11 +2,6 @@
     text-align: center;
 }
 
-article {
-    border: 3px dotted whitesmoke;
-    padding: 10px;
-    margin: 10px;
-}
 @media screen and (min-width: 980px){ /* Desktop */
     article {
         display: flex;
@@ -16,7 +11,6 @@ article {
         max-width: 500px;
         height: auto;
         text-align: center;
-
     }
     .blogg-text {
         padding-right: 10px;
