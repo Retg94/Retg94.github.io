@@ -1,6 +1,7 @@
 * {
     font-family: Verdana;
 }
+
 body {
     margin-bottom: 100px;
 }
@@ -9,7 +10,11 @@ header {
     color: black;
     margin: 0px;
 }
-
+.background-color-standard {
+    border: 3px dotted black;
+    outline: outset grey;
+    background-color: white;
+}
 footer {
     position: fixed;
     left: 0;
@@ -25,13 +30,6 @@ article {
     padding: 10px;
     margin: 20px;
 }
-/*footer {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: whitesmoke;
-}*/
 
 .img-container {
     text-align: center;
@@ -86,7 +84,7 @@ a:active {
 
 @media screen and (max-width: 979px){ /* Tablet */
     body {
-        background-image:url('background.jpg');
+        background-image: url('background.jpg');
         background-size: 100% auto;
     }
     .header-image {
