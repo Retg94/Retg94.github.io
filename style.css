@@ -10,11 +10,7 @@ header {
     color: black;
     margin: 0px;
 }
-.background-color-standard {
-    border: 3px dotted black;
-    outline: outset grey;
-    background-color: white;
-}
+
 footer {
     position: fixed;
     left: 0;
@@ -34,6 +30,7 @@ article {
 .img-container {
     text-align: center;
 }
+
 
 /* unvisited link */
 a:link {
